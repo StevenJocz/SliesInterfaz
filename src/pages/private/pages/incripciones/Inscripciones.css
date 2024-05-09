@@ -1,0 +1,85 @@
+.Inscripciones h1 {
+    margin: 3% 0 0 10px;
+    color: #252b36;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.Inscripciones h2 {
+    margin: 3% 0;
+    color: #252b36;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.InscripcionesHome-div {
+    cursor: pointer;
+}
+
+.InscripcionesHome-content {
+    margin-top: 20px;
+}
+
+.InscripcionesHome-content h4 {
+    color: #252b36;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.Inscripciones .TotalRegistros,
+.Inscripciones .css-asvefe {
+    display: none;
+}
+
+.InscripcionesHome-reciente {
+    padding: 0 20px;
+}
+
+.InscripcionesHome-reciente ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.InscripcionesHome-reciente ul li {
+    margin: 10px 0;
+    padding: 5px 0;
+}
+
+.Inscripciones .divTableImagen {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+
+.Inscripciones .divTableImagen div {
+    text-align: left;
+}
+
+.Inscripciones .divTableImagen div h5 {
+    color: #636363;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 15px;
+    text-align: left;
+
+}
+
+.Inscripciones .divTableImagen div p {
+    font-size: 14px;
+    text-align: left;
+}
+
+.Inscripciones .divTableImagen .imgTable {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin-right: 10px;
+}

@@ -1,0 +1,230 @@
+.Inmersiones {
+    width: 100%;
+    position: relative;
+}
+
+.Inmersiones_header {
+    width: 60%;
+    margin: 12% 0 0 50px;
+}
+
+.Inmersiones_header h2 {
+    font-family: "Neue Plak Extended Bold", serif;
+    color: var(--text-color-blanco);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -1.2px;
+    line-height: 100%;
+}
+
+.Inmersiones_header h2 span {
+    color: var(--text-color-amarilloClaro);
+}
+
+.Inmersiones_header p {
+    color: var(--tex-color-blancoGris);
+    font-family: "Neue Plak Regular", serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    line-height: 150%;
+    margin-top: 20px;
+}
+
+.Inmersiones_buton {
+    margin-top: 5%;
+}
+
+
+.Inmersiones_buton-text {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.Inmersiones_buton-text img {
+    width: 40px;
+    height: 40px;
+    border-radius: inherit;
+    object-position: center center;
+    object-fit: cover;
+    image-rendering: auto;
+}
+
+.Inmersiones_buton-text p {
+    color: var(--text-color-amarilloClaro);
+    font-family: "Neue Plak Regular", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    line-height: 150%;
+    margin-left: 10px;
+}
+
+.Inmersiones_buton-input {
+    display: flex;
+    width: 55%;
+    padding: 5px 0px 5px 5px;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.074);
+    color: rgb(255, 255, 255);
+    border: 0.2px rgba(255, 251, 216, 0.307) solid;
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    margin: 20px 0 0 40px;
+}
+
+.Inmersiones_buton-input input {
+    width: 75%;
+    padding: 16px 28px;
+    background: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    outline: none;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4em;
+    appearance: none;
+    display: inline-block;
+    font-family: "Neue Plak Regular", serif;
+}
+
+.Inmersiones_buton-input button {
+    appearance: none;
+    display: inline-block;
+    width: 25%;
+    line-height: 1.4em;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    padding: 16px 28px;
+    font-family: "Neue Plak Regular", serif;
+    font-weight: 600;
+    font-size: 18px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    opacity: 1;
+}
+
+
+.Inmersiones_buton-lineas {
+    position: relative;
+    width: 120px;
+    height: 70px;
+    background-color: #00000000;
+    border-bottom: 5px dashed #bdbdbd49;
+    border-left: 5px dashed #bdbdbd49;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-left: 50px;
+    margin-top: -15px;
+    z-index: -1;
+}
+
+.Inmersiones_buton-lineas::before,
+.Inmersiones_buton-lineas::after {
+    content: "";
+    position: absolute;
+    background-color: #bdbdbd49;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    right: 0px;
+    bottom: 0px
+}
+
+.Inmersiones_buton-unete {
+    display: flex;
+    align-items: center;
+}
+
+.Inmersiones_buton-unete p {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: var(--tex-color-blancoGris);
+    font-family: "Neue Plak Regular", serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    line-height: 150%;
+    margin-left: 10px;
+}
+
+.Inmersiones_buton-unete-img {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.Inmersiones_buton-unete-img img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.Inmersiones_imganes {
+    width: 110%;
+    display: flex;
+    transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    position: absolute;
+    top: 50%;
+    z-index: -2;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.Inmersiones_imganes img {
+    width: 480px;
+    height: 300px;
+    margin-right: 20px;
+    opacity: 1;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: inline-block;
+    animation: carruselAnimation 40s linear infinite;
+    -webkit-animation: carruselAnimation 40s linear infinite;
+}
+
+@keyframes carruselAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-312%);
+        -webkit-transform: translateX(-312%);
+        -moz-transform: translateX(-312%);
+        -ms-transform: translateX(-312%);
+        -o-transform: translateX(-312%);
+}
+}
+
+
+.Inmersiones_imganes div {
+    width: 110%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.782);
+    position: absolute;
+    top: 0;
+}

@@ -1,0 +1,517 @@
+.Curso {
+    position: relative;
+}
+
+.Curso h2 {
+    margin: 3% 0;
+    color: #252b36;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.Curso_volver {
+    margin: 3% 0 0 0;
+}
+
+.Curso_volver div {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Curso_volver div .icono {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.Curso_volver div span {
+    color: #252b36;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 15px;
+}
+
+.AddCursos {
+    width: 100%;
+}
+
+.AddCursos_Encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 0;
+}
+
+.AddCursos_Encabezado h3 {
+    color: #252b36;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+.AddCursos_Encabezado button {
+    margin: 0 10px;
+}
+
+.AddCursos_Formulario-content {
+    width: 100%;
+    display: flex;
+}
+
+.AddCursos_Formulario-content-left {
+    width: 70%;
+}
+
+
+.AddCursos_Formulario-content-left h4 {
+    color: #252b36c0;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 18px;
+}
+
+.AddCursos_Formulario-content-right {
+    width: 30%;
+}
+
+
+
+.AddCursos_Formulario-content-right-contect {
+    width: 100%;
+    background-color: #ffffff;
+    margin-left: 30px;
+    padding: 10px;
+    border: 1px solid #57575731;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.AddCursos_Formulario-content-right-switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+}
+
+.AddCursos_Formulario-content-right-switch label {
+    color: #252b36c0;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.AddCursos_Formulario-content-right-switch .Activo {
+    color: #c10ade;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.AddCursos_Formulario-content-right h4 {
+    color: #252b36c0;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.AddCursos_Formulario-content-right-contect .AddCursos_Formulario-content-right-contect-imagen {
+    width: 100%;
+    position: relative;
+}
+
+.AddCursos_Formulario-content-right-contect .AddCursos_Formulario-content-right-contect-imagen img {
+    width: 100%;
+}
+
+.AddCursos_Formulario-content-right-contect .AddCursos_Formulario-content-right-contect-button {
+    display: flex;
+    justify-content: right;
+}
+
+.AddCursos_Formulario-content .tox .tox-statusbar__right-container,
+.AddCursos_Formulario-content .tox .tox-statusbar__path {
+    display: none;
+}
+
+.AddCursos_Formulario-content .tox .tox-toolbar__primary,
+.AddCursos_Formulario-content .tox .tox-editor-header,
+.AddCursos_Formulario-content .tox .tox-toolbar-overlord,
+.AddCursos_Formulario-content .tox:not(.tox-tinymce-inline) .tox-editor-header,
+.AddCursos_Formulario-content .tox-tinymce,
+.AddCursos_Formulario-content .tox-editor-container .tox-statusbar {
+    background-color: #f5f7fa;
+    border: none;
+    margin-bottom: 5px;
+    box-shadow: none;
+}
+
+.AddCursos_Formulario-content .tox-edit-area {
+    border: 1px solid #00000028;
+    border-radius: 4px;
+}
+
+.AddCursos_Formulario-content .Pickers {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.AddCursos_Formulario-content-left-otrasOpciones {
+    width: 100%;
+    display: flex;
+    margin: 30px 0;
+}
+
+.otrasOpciones-left {
+    width: 40%;
+    border-right: 1px solid #2f2e2e26;
+}
+
+.otrasOpciones-left ul {
+    list-style: none;
+    border-top: 1px solid #2f2e2e26;
+}
+
+.otrasOpciones-left ul li {
+    font-size: 17px;
+    padding: 8px;
+    border-bottom: 1px solid #2f2e2e26;
+    font-family: "Neue Plak Regular", serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.otrasOpciones-left ul li .icono {
+    margin-right: 10px;
+}
+
+.otrasOpciones-left ul li div {
+    width: 20px;
+    height: 20px;
+    background-color: #f5f7fa;
+    border-left: 1px solid #2f2e2e26;
+    border-bottom: 1px solid #2f2e2e26;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    position: absolute;
+    right: -10px;
+    top: 40%;
+}
+
+.otrasOpciones-right {
+    width: 60%;
+    border-top: 1px solid #2f2e2e26;
+    border-bottom: 1px solid #2f2e2e26;
+    padding: 10px;
+    position: relative;
+}
+
+.otrasOpciones-right h4 {
+    color: #252b36c0;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.otrasOpciones-right-cupos {
+    border-bottom: 1px solid #2f2e2e26;
+}
+
+.otrasOpciones-right-Pago {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.otrasOpciones-right-Pago-left {
+    width: 50%;
+    margin-right: 5px;
+}
+
+.otrasOpciones-right-Pago-right {
+    width: 50%;
+    margin-left: 5px;
+    display: flex;
+}
+
+
+
+.otrasOpciones-right-Pago-right .icono {
+    color: #b51010;
+    font-size: 25px;
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.otrasOpciones-right-Pago-right .icono:hover {
+    color: #740505;
+    background-color: #b5101034;
+}
+
+.otrasOpciones-right-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.otrasOpciones-right-img img {
+    width: 60%;
+    margin: 20px 20% 0 20%;
+}
+
+.AddCursos_Formulario-content-right-contect-previsual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AddCursos_Formulario-content-right-contect-previsual a {
+    text-decoration: none;
+    color: rgb(0, 115, 255);
+    font-size: 17px;
+    font-family: "Neue Plak Regular", serif;
+    margin-left: 10px;
+}
+
+.AddCursos_Formulario-content-right-contect-previsual .icono {
+    font-size: 20px;
+    font-family: "Neue Plak Regular", serif;
+}
+
+.AddCursos_Formulario-content .Error {
+    color: #ff0808;
+    text-align: right;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.Modal_Precio {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    background-color: #6969699d;
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.Modal_Precio_Content {
+    width: 80%;
+    max-height: 500px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.Modal_Precio_Content-Encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Modal_Precio_Content-Encabezado h3 {
+    color: #252b36;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 18px;
+}
+
+.Modal_Precio_Content-Encabezado .icono {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.Modal_Precio_Content-body {
+    margin-top: 20px;
+}
+
+.Modal_Precio_Content-footer {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+
+.InputValor {
+    width: 100%;
+    border: 1px solid #47474746;
+    outline: none;
+    padding: 5px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-size: 18px;
+    color: #00000084;
+}
+
+.AddCursos_Formulario-content-asignarProfesor {
+    margin: 10px 0 30px 0;
+}
+
+.AddCursos_Formulario-content-asignarProfesor-select-imagen h4 {
+    margin: 20px 0 10px 0;
+}
+
+.AddCursos_Formulario-content-asignarProfesor-select-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #01010113;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 5px 10px;
+    position: relative;
+}
+
+.AddCursos_Formulario-content-asignarProfesor-select-content h2 {
+    font-size: 16px;
+    color: #1f1f1fc0;
+}
+
+.AddCursos_Formulario-content-asignarProfesor-select-content h3 {
+    font-size: 14px;
+    color: #656565c0;
+    margin-top: -5px;
+}
+
+.AddCursos_Formulario-content-asignarProfesor-select-content img {
+    width: 80px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.AddCursos_Formulario-content-asignarProfesor-select-content .icono {
+    font-size: 22px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.AddCursos_Formulario-content-asignarProfesor-select {
+    display: flex;
+    align-items: center;
+}
+
+.AddCursos_Formulario-content-asignarProfesor-select .MuiFormControl-root {
+    width: 75%;
+    margin: 10px 10px 0 0;
+}
+
+.contetOption {
+    display: flex;
+    align-items: center;
+}
+
+.SelectImagen {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+/*  Participantes  */
+
+.Participantes_menu {
+    width: 50%;
+    border: 1px solid #57575731;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.Participantes_menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.Participantes_menu ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+}
+
+.Participantes_menu ul li:hover {
+    background-color: #edecec;
+}
+
+.Participantes_menu ul .LiActive {
+    background-color: #091314;
+    color: #ffffff;
+}
+
+.Participantes_menu ul .LiActive:hover {
+    background-color: #091314;
+}
+
+.Participantes_menu ul li .icono {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.Participantes_asistencia {
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+    background-color: #ffffff;
+}
+
+.Participantes_asistencia h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.Participantes_asistencia p {
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #4a4a4a9f;
+}
+
+.Participantes_asistencia-img {
+    display: flex;
+    align-items: center;
+}
+
+.Participantes_asistencia-img img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

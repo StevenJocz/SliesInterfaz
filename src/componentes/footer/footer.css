@@ -1,0 +1,28 @@
+.footer {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0 40px 0;
+    border-top: 1px solid var(--bg-color-Gris-Oscuro);
+}
+
+.footer p {
+    color: var(--tex-color-blancoGris);
+    font-family: "Neue Plak Regular", serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    line-height: 150%;
+    margin-top: 20px;
+}
+
+.footer p span {
+    color: var(--text-color-azulClaro);
+    font-family: "Neue Plak Regular", serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    line-height: 150%;
+    margin-top: 20px;
+}

@@ -1,0 +1,79 @@
+.Contacto {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.Contacto h2 {
+    font-family: "Neue Plak Extended Bold", serif;
+    color: var(--text-color-blanco);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -1.2px;
+    line-height: 100%;
+}
+
+.Contacto_Formulario {
+    width: 70%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.Contacto_Formulario input {
+    appearance: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 1.4em;
+    outline: none;
+    border: none;
+    padding: 20px 28px;
+    border-radius: 32px;
+    font-family: "Neue Plak Extended Semi Bold Regular", "Neue Plak Extended Semi Bold", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.08);
+    color: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    margin-bottom: 10px;
+}
+
+.Contacto_Formulario textarea {
+    appearance: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 1.4em;
+    outline: none;
+    border: none;
+    min-height: 0px;
+    padding: 20px 28px;
+    resize: vertical;
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 0.08);
+    font-family: "Neue Plak Extended Semi Bold Regular", "Neue Plak Extended Semi Bold", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    resize: none!important;
+}
+
+
+.Contacto_Formulario button {
+    appearance: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 1.4em;
+    outline: none;
+    border: none;
+    border-radius: 32px;
+    padding: 20px 28px;
+    font-family: "Neue Plak Extended Semi Bold Regular", "Neue Plak Extended Semi Bold", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 600;
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    opacity: 1;
+    margin-top: 10px;
+}

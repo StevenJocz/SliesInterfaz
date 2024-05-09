@@ -1,0 +1,102 @@
+nav {
+    width: 100%;
+    place-content: center space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: var(--tex-color-blancoGris);
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+nav ul a .nav_linea {
+    width: 2px;
+    height: 50px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+nav ul a:hover .nav_linea {
+    background-color: var(--bg-color-Gris-Claro);
+}
+
+nav ul a li {
+    color: var(--tex-color-blancoGris);
+    font-family: Neue Plak Regular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.42px;
+    line-height: 150%;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px 10px 10px 60px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul a:hover li {
+    color: var(--text-color-blanco);
+}
+
+nav ul a .nav_space {
+    width: 400px;
+    height: 50px;
+    background: radial-gradient(100% 50% at 0% 50%, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+    filter: none;
+    opacity: 0.2;
+    transform: none;
+    transform-origin: 50% 50% 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    display: none;
+}
+
+nav ul a:hover .nav_space {
+    display: block;
+}
+
+.nav_dos {
+    margin-top: 40px;
+    border-top: 1px solid var(--bg-color-Gris-Oscuro);
+    width: 100%;
+    place-content: center space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+nav ul .icono {
+    margin-right: 10px;
+}

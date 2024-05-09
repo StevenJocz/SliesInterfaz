@@ -1,0 +1,706 @@
+.view {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.view_fondoDos {
+    background-size: 128px;
+    background-repeat: repeat;
+    background-image: url(https://framerusercontent.com/images/rR6HYXBrMmX4cRpXfXUOvpvpB0.png);
+    opacity: 0.04;
+    border-radius: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    inset: 0px;
+    z-index: -1;
+}
+
+
+.view_fondo {
+    width: 25%;
+    height: 100vh;
+    background-color: var(--text-color-amarilloClaro);
+    border-radius: 800px;
+    top: 60% !important;
+    filter: blur(100px);
+    flex: none;
+    opacity: .4;
+    overflow: hidden;
+    position: absolute;
+    right: 0% !important;
+    z-index: -2;
+}
+
+.viewFondoCurso {
+    background-color: var(--text-color-verde);
+}
+
+.viewFondoEvento {
+    background-color: var(--text-color-azulClaro);
+}
+
+.viewFondoSeminario {
+    background-color: var(--text-color-purpura);
+}
+
+.viewFondoDiplomado {
+    background-color: var(--text-color-naraja);
+}
+
+.view_info {
+    width: 80%;
+    padding: 50px 10px 0 80px;
+}
+
+.view_info-tipo {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px
+}
+
+.view_info-tipo-atras {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    backdrop-filter: blur(12px);
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.086) 0px 0.796192px 0.796192px -0.9375px, rgba(0, 0, 0, 0.082) 0px 2.41451px 2.41451px -1.875px, rgba(0, 0, 0, 0.07) 0px 6.38265px 6.38265px -2.8125px, rgba(0, 0, 0, 0.03) 0px 20px 20px -3.75px;
+    transform: none;
+    transform-origin: 50% 50% 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.view_info-tipo-atras h4 {
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    color: var(--tex-color-blancoGris);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+    line-height: 120%;
+    white-space: 0px;
+    text-align: start;
+    display: none;
+    margin-left: 20px;
+}
+
+.view_info-tipo-atras:hover h4 {
+    display: block;
+}
+
+.view_info-tipo-atras:hover {
+    width: 250px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.view_info-tipo-atras .icono {
+    color: var(--tex-color-blancoGris);
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.view_info-tipo h2 {
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    color: var(--text-color-amarilloClaro);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+    line-height: 120%;
+    white-space: 0px;
+    text-align: start;
+    margin-left: 100px;
+}
+
+.view_info-tipo .textinfo-tipoCurso {
+    color: var(--text-color-verde);
+}
+
+.view_info-tipo .textinfo-tipoEvento {
+    color: var(--text-color-azulClaro);
+}
+
+.view_info-tipo .textinfo-tipoSeminario {
+    color: var(--text-color-purpura);
+}
+
+.view_info-tipo .textinfo-tipoDiplomado {
+    color: var(--text-color-naraja);
+}
+
+
+.view_info-titulo {
+    width: 100%;
+    height: 80vh;
+    padding: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+.view_info-titulo::-webkit-scrollbar {
+    width: 5px;
+}
+
+.view_info-titulo::-webkit-scrollbar-thumb {
+    background-color: #a1a1a1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.view_info-titulo::-webkit-scrollbar-track {
+    background-color: #252b3600;
+}
+
+
+
+.view_info-titulo h1 {
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    color: var(--text-color-blanco);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.48px;
+    line-height: 110%;
+    white-space: 0px;
+    text-align: start;
+    padding: 20px;
+}
+
+.view_info-titulo img {
+    width: 100%;
+}
+
+.view_info-compartir {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 10px 0;
+}
+
+.view_info-compartir h2 {
+    font-size: 18px;
+    color: var(--tex-color-blancoGris);
+    margin-right: 10px;
+}
+
+.view_info-compartir .icono {
+    font-size: 27px;
+    color: var(--tex-color-blancoGris);
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.viewCursos_body--contenido-acciones {
+    border-bottom: 1px;
+    border-color: #ffffff1a;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    background-color: #ffffff0d;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 4px 10px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.viewCursos_acciones-content {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+}
+
+.viewCursos_acciones--content-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.viewCursos_acciones--content-link div {
+    width: 100%;
+}
+
+.viewCursos_acciones--content-link div h2 {
+    text-decoration: none;
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    color: aqua;
+    font-size: 14px;
+}
+
+.viewCursos_acciones--content-link div p {
+    text-decoration: none;
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    color: var(--text-color-blanco);
+    font-size: 15px;
+    margin-top: -1px;
+}
+
+.viewCursos_acciones--content-link .icono {
+    width: 30px;
+    font-size: 25px;
+    color: var(--text-color-blanco);
+    margin-right: 10px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    padding: 5px;
+    background-color: #6969692d;
+    color: aqua;
+}
+
+
+.viewCursos_acciones--content-linea {
+    background: radial-gradient(1001% 50% at 50% 50%, #ffffff2c 0%, #ababab00 100%);
+    border-radius: 2px;
+    flex: none;
+    height: 32px;
+    overflow: hidden;
+    position: relative;
+    width: 1px;
+    margin: 0 10px;
+}
+
+
+.view_info-titulo p {
+    color: var(--bg-color-Gris-Claro);
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+    line-height: 120%;
+    text-decoration: none;
+    text-transform: none;
+    margin-top: 10px;
+}
+
+.view_info-contenido {
+    margin-top: 20px;
+    color: var(--bg-color-Gris-Claro);
+}
+
+
+
+.view_info-contenido strong,
+.view_info-contenido h3,
+.view_info-contenido h2 {
+    font-weight: 700;
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    color: var(--text-color-blanco);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 15px !important;
+}
+
+.view_info-contenido ul {
+    margin: 10px 0 20px 20px;
+}
+
+
+.view_info-contenido ul li {
+    color: var(--bg-color-Gris-Claro);
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: dashed !important;
+    margin: 0 0 10px 10px;
+
+}
+
+
+.view_tipo h1 {
+    width: 100%;
+    -webkit-text-stroke: 1px #ffffffe4;
+    -webkit-font-smoothing: antialiased;
+    color: transparent !important;
+    font-family: "Neue Plak Extended Bold", serif;
+    font-size: 450px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -4px;
+    line-height: 100%;
+    text-align: start;
+    color: var(--tex-color-blancoGris, #ffffff);
+    text-decoration: none;
+    text-transform: none;
+    opacity: 0.1;
+    position: absolute;
+    bottom: -2%;
+    left: 60px;
+    transition: left 1s;
+    -webkit-transition: left 1s;
+    -moz-transition: left 1s;
+    -ms-transition: left 1s;
+    -o-transition: left 1s;
+    animation: mover 35s linear infinite;
+    -webkit-animation: mover 35s linear infinite;
+    z-index: -1;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateX(100%);
+        /* Mueve el texto fuera de la vista a la derecha */
+    }
+
+    100% {
+        transform: translateX(-100%);
+        /* Mueve el texto completamente a la izquierda */
+    }
+}
+
+.view_info-profesores {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.view_info-profesores h4 {
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    color: var(--text-color-blanco);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.view_info-profesores-view {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Dos columnas por fila */
+    gap: 10px;
+}
+
+.view_info-profesores-content {
+    margin: 10px;
+    text-align: center;
+}
+
+.view_info-profesores-content h2 {
+    font-size: 14px;
+    color: var(--text-color-amarilloClaro);
+    z-index: 100;
+}
+
+.view_info-profesores-content h3 {
+    font-size: 12px;
+    color: var(--bg-color-Gris-Claro);
+}
+
+.view_info-profesores-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #ffffff27;
+}
+
+.view_contect {
+    width: 50%;
+    padding: 130px 20px;
+}
+
+
+
+.view_contect--contacto {
+    width: 100%;
+    background-color: #ffffff16;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.view_contect--contacto h2 {
+    font-size: 17px;
+    text-align: center;
+    color: var(--text-color-blanco);
+}
+
+.view_contect--contacto-formulario {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.view_contect--contacto-formulario input[type="text"],
+.view_contect--contacto-formulario input[type="email"] {
+    appearance: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 1.4em;
+    outline: none;
+    border: none;
+    padding: 10px 28px;
+    border-radius: 10px;
+    font-family: "Neue Plak Extended Semi Bold Regular", "Neue Plak Extended Semi Bold", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 16px;
+    background: rgba(2, 2, 2, 0.818);
+    color: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    margin-bottom: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.view_contect--contacto-formulario button {
+    appearance: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 1.4em;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 28px;
+    font-family: "Neue Plak Extended Semi Bold Regular", "Neue Plak Extended Semi Bold", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 600;
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    opacity: 1;
+    margin-top: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.view_contect--contacto-formulario-datos div {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.view_contect--contacto-formulario input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 0;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+}
+
+.view_contect--contacto-formulario input[type="checkbox"]:checked {
+    background-color: var(--text-color-purpura);
+    border-color: var(--text-color-purpura);
+    color: #fff;
+}
+
+.view_contect--contacto-formulario input[type="checkbox"]::after {
+    content: '\2713';
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.view_contect--contacto-formulario input[type="checkbox"]:checked::after {
+    opacity: 1;
+}
+
+.view_contect--contacto-formulario a {
+    color: var(--tex-color-blancoGris);
+    text-decoration: none;
+    text-align: right;
+    margin: 0 0 30px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.view_contect--contacto-formulario p {
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    color: var(--bg-color-Gris-Claro);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+    line-height: 120%;
+    white-space: 0px;
+    text-align: start;
+}
+
+.view_contect--contacto-acciones {
+    margin-top: 20px;
+    position: relative;
+}
+
+.view_contect--contacto-acciones button {
+    appearance: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 1.4em;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-family: "Neue Plak Extended Semi Bold Regular", "Neue Plak Extended Semi Bold", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    opacity: 1;
+    margin-top: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.view_contect--contacto-acciones-incripcion {
+    background: var(--text-color-purpura);
+    padding: 10px 28px;
+    color: rgb(255, 255, 255) !important;
+}
+
+.view_contect--contacto-acciones-incripcion-Dos {
+    background: var(--bg-color-Gris-Claro);
+    padding: 10px 28px;
+    font-size: 10px;
+}
+
+
+.view_contect--contacto-acciones-incripcion--contacto {
+    width: 80%;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.view_contect--contacto-acciones-incripcion--contacto a,
+.view_contect--contacto-acciones-incripcion--contacto p {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.view_contect--contacto-acciones-incripcion--contacto a .icono,
+.view_contect--contacto-acciones-incripcion--contacto p .icono {
+    background-color: #000000;
+    color: aqua;
+    margin-right: 10px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.LogoUnac {
+    position: absolute;
+    left: 21.3%;
+    bottom: 5%;
+    width: 350px;
+    opacity: 0.1;
+    z-index: -2;
+}
+
+.view_contect-icono {
+    width: 30%;
+    text-align: center;
+    font-size: 180px;
+    color: #fcfcfc9c;
+    margin-top: 20px;
+}
+
+.view_info-titulo .footer {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0 40px 0;
+    border-top: 1px solid var(--bg-color-Gris-Oscuro);
+}
+
+.view_info-titulo .footer p {
+    color: var(--tex-color-blancoGris);
+    font-family: "Neue Plak Regular", serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    line-height: 150%;
+    margin-top: 20px;
+}
+
+.view_info-titulo .footer p span {
+    color: var(--text-color-azulClaro);
+    font-family: "Neue Plak Regular", serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    line-height: 150%;
+    margin-top: 20px;
+}

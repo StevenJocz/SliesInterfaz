@@ -1,0 +1,11 @@
+export { default as Configuracion } from './Configuracion';
+export * from './categorias';
+export * from './dependencias';
+export * from './index';
+export { default as AddPreguntas } from './preguntas/AddPreguntas';
+export { default as Preguntas } from './preguntas/Preguntas';
+export { default as AddTipoAsistente } from './tipoAsistente/AddTipoAsistente';
+export { default as TipoAsistentes } from './tipoAsistente/TipoAsistentes';
+export * from './tipoDocumentos';
+export * from './tiposCursos';
+export { default as Videos } from './videos/Videos';

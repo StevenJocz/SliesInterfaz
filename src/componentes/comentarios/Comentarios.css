@@ -1,0 +1,195 @@
+.Comentarios {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.Comentarios_label {
+    border: 1px solid #404650;
+    border-radius: .5rem;
+    color: #87909d;
+    text-align: center;
+    padding: .5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .2);
+    font-weight: 400;
+    font-size: .875rem;
+    letter-spacing: .019rem;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.Comentarios_envio {
+    position: relative;
+}
+
+.Comentarios_envio .tox .tox-statusbar__right-container,
+.Comentarios_envio .tox .tox-statusbar__path {
+    display: none;
+}
+
+.Comentarios_envio .icono {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    color: #030303;
+    z-index: 1000;
+    font-size: 25px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.Comentarios_content {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.Comentarios_content--left {
+    width: 10%;
+    text-align: center;
+    position: relative;
+}
+
+.Comentarios_content--left img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: 10px;
+}
+
+.Comentarios_content--left .icono,
+.Comentarios_content--left p {
+    color: #ffffff;
+}
+
+.Comentarios_content--linea {
+    width: 1px;
+    height: calc(100% - 168px);
+    background-color: #fffcfc3b;
+    position: absolute;
+    top: 90px;
+    left: 21px;
+}
+
+.Comentarios_content--right--Responder-comentario {
+    margin-top: 10px;
+}
+
+.Comentarios_content--right--Responder-comentario p {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.Comentarios_content--right--Responder-comentario p .icono{
+    margin-right: 10px;
+}
+
+.Comentarios_content--right {
+    width: 85%;
+    height: auto;
+}
+
+.Comentarios_content--right--comentario {
+    width: 100%;
+    background-color: #ffffff1e;
+    margin-left: 7px;
+    padding: 10px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    color: #ffffff;
+}
+
+.Comentarios_content--right--encabezado {
+    width: 100%;
+}
+
+.Comentarios_content--right--encabezado h3 {
+    font-size: 13px;
+    color: var(--text-color-amarilloClaro);
+}
+
+.Comentarios_content--right--encabezado h4 {
+    font-size: 11px;
+    color: var(--bg-color-Gris-Claro);
+}
+
+.Comentarios_content--right--content {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.Comentarios_content--right--content p {
+    font-size: 14px;
+    color: var(--bg-color-Gris-Claro);
+}
+
+.Comentarios_content--right--respuesta {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.Comentarios_content--right--respuesta-encabezado {
+    width: 10%;
+    text-align: center;
+    position: relative;
+}
+
+.Comentarios_content--respuesta-linea {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 7px;
+    left: -19px;
+    border-bottom: 1px solid #fffcfc3b;
+    border-radius: 0 0 0 10px;
+    -webkit-border-radius: 0 0 0 10px;
+    -moz-border-radius: 0 0 0 10px;
+    -ms-border-radius: 0 0 0 10px;
+    -o-border-radius: 0 0 0 10px;
+}
+
+.Comentarios_content--right--respuesta-encabezado img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: 10px;
+}
+
+.Comentarios_content--right--respuesta-encabezado .icono,
+.Comentarios_content--right--respuesta-encabezado p {
+    color: #ffffff;
+}
+
+.Comentarios_content--right--respuesta-content {
+    width: 100%;
+    background-color: #ffffff1e;
+    margin-left: 7px;
+    padding: 10px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    color: #ffffff;
+}

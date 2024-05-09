@@ -1,0 +1,179 @@
+.MisCursos {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--bg-color-fondoModal);
+    backdrop-filter: blur(1px);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.MisCursos_content-cerrar {
+    width: 65%;
+    height: 100vh;
+    cursor: pointer;
+}
+
+.MisCursos_content {
+    width: 35%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #050a0b;
+    padding: 30px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 10px 15px -3px rgba(255, 255, 255, 0.095), 0px 10px 15px -3px rgba(255, 255, 255, 0.095);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.MisCursos_content::-webkit-scrollbar {
+    width: 5px;
+}
+
+.MisCursos_content::-webkit-scrollbar-thumb {
+    background-color: #a1a1a1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.MisCursos_content::-webkit-scrollbar-track {
+    background-color: #252b3600;
+}
+
+
+.MisCursos_content_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.MisCursos_content_header h2 {
+    color: var(--text-color-blanco);
+    font-size: 25px;
+    font-style: normal;
+    text-align: center;
+}
+
+.MisCursos_content_header .icono {
+    font-size: 17px;
+    padding: 10px;
+    background-color: #7d7c7c3b;
+    color: #d5d5d5;
+    cursor: pointer;
+}
+
+.MisCursos_content-ul {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.MisCursos_content-li {
+    width: 95%;
+    max-height: 100px;
+    background: linear-gradient(rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: -1px -1px 10px -1px rgba(255, 255, 255, 0.1);
+    -webkit-box-shadow: -1px -1px 10px -1px rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: -1px -1px 10px -1px rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin: 0 2.5%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.MisCursos_content-li:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.MisCursos_content-li .textCursos {
+    color: var(--text-color-verde);
+}
+
+.bgCursos {
+    background-image: url(https://framerusercontent.com/images/yzzRusDQN0Zhp1AyZqadpWknrc.webp?scale-down-to=512);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 35%;
+}
+
+.MisCursos_content-li .textEventos {
+    color: var(--text-color-azulClaro);
+}
+
+.bgEventos {
+    background-image: url(https://framerusercontent.com/images/AKTGTb8auKMmwGRs54lbLH5YGo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 35%;
+}
+
+.MisCursos_content-li .textSeminarios {
+    color: var(--text-color-purpura);
+}
+
+.bgSeminarios {
+    background-image: url(https://framerusercontent.com/images/DRYyjEQyd7FJ7a5pl6B4WLi2ZQ.png?scale-down-to=512);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 35%;
+}
+
+.MisCursos_content-li .textDiplomados {
+    color: var(--text-color-naraja);
+}
+
+.bgDiplomados {
+    background-image: url(https://framerusercontent.com/images/VPjUBUQM5ujth8IIPVS3mYd4HGs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 35%;
+}
+
+.MisCursos_content-li h3 {
+    font-family: "Neue Plak Extended Bold", serif;
+    color: var(--text-color-azulClaro);
+    font-size: 15px;
+    font-style: normal;
+}
+
+.MisCursos_content-li p {
+    font-family: "Neue Plak Extended Bold", serif;
+    color: var(--tex-color-blancoGris);
+    font-size: 13px;
+    letter-spacing: 0.48px;
+    line-height: 110%;
+    white-space: 0px;
+    font-style: normal;
+}
+
+.MisCursos_content-li .icono {
+    font-size: 25px;
+    color: var(--bg-color-Gris-Claro);
+}

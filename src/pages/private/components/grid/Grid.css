@@ -1,0 +1,89 @@
+.Grid {
+    width: calc(80% - 260px);
+    position: absolute;
+    top: 62px;
+    right: 63px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(38, 38, 38);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.09);
+    animation: subirDesdeAbajo 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-animation: subirDesdeAbajo 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    z-index: 1000;
+}
+
+@keyframes subirDesdeAbajo {
+    from {
+        transform: translateY(50%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.Grid_Imagen {
+    width: 40%;
+    box-sizing: border-box;
+    margin: 0px;
+    flex-direction: row;
+    background:
+        url(https://mantisdashboard.io/assets/back-b48b6d94.svg), linear-gradient(183.77deg, #091314 11.46%, #162f31 100.33%);
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
+    -moz-border-radius: 10px 0 0 10px;
+    -ms-border-radius: 10px 0 0 10px;
+    -o-border-radius: 10px 0 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Grid_Imagen h1 {
+    font-family: "Neue Plak Extended Bold", serif;
+    color: var(--text-color-blanco);
+    font-size: 25px;
+}
+
+.Grid_Imagen p {
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    color: var(--tex-color-blancoGris);
+    font-size: 16px;
+}
+
+.Grid_Column {
+    width: 60%;
+    padding: 20px 20px 20px 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.Grid_Column h3 {
+    font-family: "Neue Plak Extended Bold", serif;
+    font-size: 17px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+
+.Grid_Column ul  li {
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    color: #a2a2a2;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.Grid_Column ul  li:hover {
+    background-color: #e6e6e697;
+}
+

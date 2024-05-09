@@ -1,0 +1,99 @@
+.Login_content-header p {
+    margin-left: 200px;
+}
+
+.inscripcion p {
+    color: var(--text-color-blanco);
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+    line-height: 120%;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Login_content_body-p {
+    color: var(--bg-color-Gris-Claro);
+    font-style: italic;
+    font-size: 15px;
+}
+
+.Inscripciones {
+    position: relative;
+}
+
+.Inscripcion_Grupal {
+    width: 100%;
+}
+
+.Inscripcion_Grupal ul {
+    width: 100%;
+    list-style: none;
+}
+
+.Inscripcion_Grupal ul li {
+    font-size: 17px;
+    padding: 8px;
+    border-bottom: 1px solid #ffffff1f;
+    font-family: "Neue Plak Regular", serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: aliceblue;
+}
+
+.Inscripcion_Grupal ul li .icono {
+    margin-right: 10px;
+}
+
+.Inscripcion_Grupal .css-19yg8i0-MuiButtonBase-root-MuiCheckbox-root {
+    background-color: rgba(255, 255, 255, 0.123);
+    padding: 4px;
+    margin-right: 10px;
+}
+
+.Inscripcion_Grupal .css-19yg8i0-MuiButtonBase-root-MuiCheckbox-root:hover  {
+    background-color: rgba(255, 255, 255, 0.123);
+}
+
+.Inscripcion_Grupal--boton {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.Inscripcion_Grupal--add {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-color-contentModal);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    z-index: 100;
+}
+
+.Inscripcion_Grupal--add--encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.Inscripcion_Grupal--add--encabezado .icono {
+    font-size: 17px;
+    padding: 10px;
+    background-color: #7d7c7c3b;
+    color: #d5d5d5;
+    cursor: pointer;
+}
+
+.Inscripcion_Grupal--add--encabezado h2 {
+    color: var(--bg-color-Gris-Claro);
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+}

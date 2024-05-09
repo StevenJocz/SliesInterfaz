@@ -1,0 +1,439 @@
+.viewCursos {
+    width: 100%;
+    padding: 50px 10px 0 80px;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.viewCursos::-webkit-scrollbar {
+    width: 0px;
+}
+
+.viewCursos::-webkit-scrollbar-thumb {
+    background-color: #a1a1a1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.viewCursos::-webkit-scrollbar-track {
+    background-color: #252b3600;
+}
+
+.viewCursos_header {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 40px;
+}
+
+.viewCursos_header h2 {
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    color: var(--text-color-blanco);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.48px;
+    line-height: 110%;
+    white-space: 0px;
+    text-align: left;
+}
+
+.viewCursos_header--Profesor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.viewCursos_header--Profesor img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #ffffff27;
+}
+
+.viewCursos_header--Profesor div {
+    margin-left: 10px;
+}
+
+.viewCursos_header--Profesor h3 {
+    font-size: 17px;
+    color: var(--text-color-amarilloClaro);
+    z-index: 100;
+}
+
+.viewCursos_header--Profesor h4 {
+    font-size: 15px;
+    color: var(--bg-color-Gris-Claro);
+    margin-top: -7px;
+}
+
+.viewCursos_body {
+    width: 100%;
+    display: flex;
+}
+
+.viewCursos_body--contenido {
+    width: 65%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.viewCursos_body--contenido--img {
+    width: 100%;
+}
+
+.viewCursos_body--contenido--img img {
+    width: 100%;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.viewCursos_body--contenido--acciones {
+    border-bottom: 1px;
+    border-color: #ffffff1a;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    background-color: #ffffff0d;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 4px 10px;
+    max-width: 70%;
+    margin-top: 20px;
+
+}
+
+.viewCursos_acciones--content {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+}
+
+.viewCursos_acciones--content--link {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.viewCursos_acciones--content--link p {
+    text-decoration: none;
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    color: var(--text-color-blanco);
+    font-size: 0.7em;
+}
+
+.viewCursos_acciones--content--link .icono {
+    font-size: 20px;
+    color: var(--text-color-blanco);
+    margin-right: 10px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    padding: 5px;
+    background-color: #6969692d;
+    color: aqua;
+}
+
+
+.viewCursos_acciones--content--linea {
+    background: radial-gradient(1001% 50% at 50% 50%, #ffffff2c 0%, #ababab00 100%);
+    border-radius: 2px;
+    flex: none;
+    height: 32px;
+    overflow: hidden;
+    position: relative;
+    width: 1px;
+    margin: 0 10px;
+}
+
+.viewCursos_acciones--content--info {
+    width: 380px;
+    background-color: #050a0bba;
+    padding: 30px;
+    box-shadow: 0px 5px 5px 0px rgba(255, 255, 255, 0.026), 0px 10px 15px -3px rgba(255, 255, 255, 0.026);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 10px;
+}
+
+.viewCursos_acciones--content--info--link {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.viewCursos_acciones--content--info--link p {
+    text-decoration: none;
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    color: var(--text-color-blanco);
+    font-size: 0.8em;
+}
+
+.viewCursos_acciones--content--info--link .icono {
+    font-size: 20px;
+    color: var(--text-color-blanco);
+    margin-right: 10px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    padding: 5px;
+    background-color: #6969692d;
+    color: aqua;
+}
+
+.viewCursos_body--contenido--temario {
+    margin-top: 30px;
+}
+
+.viewCursos_body--contenido--temario h2 {
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    color: var(--text-color-blanco);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+
+.viewCursos_temario--lista {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.viewCursos_temario--lista h2 {
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    color: var(--tex-color-blancoGris);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.viewCursos_temario--lista h2 span {
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    color: var(--tex-color-blancoGris);
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+    margin-right: 10px;
+}
+
+
+.viewCursos_temario--lista-Caja {
+    place-content: start flex-start;
+    align-items: start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    height: min-content;
+    overflow: visible;
+    position: relative;
+    transform: perspective(1200px);
+    width: 96%;
+    background-color: #ffffff0e;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.viewCursos_temario--lista-Caja-encabezado {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.viewCursos_temario--lista-Caja .view_info-contenido {
+    width: 100%;
+    padding: 20px;
+}
+
+.viewCursos_temario--lista-Caja .addModulo_info-video{
+    width: 90%;
+    height: auto;
+    margin: 10px 5%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.viewCursos_temario--lista-Caja .addModulo_info-video iframe{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.viewCursos_temario--lista-Caja-encabezado h4 {
+    width: 95%;
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    color: var(--tex-color-blancoGris);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.viewCursos_temario--lista-Caja-encabezado  h4 span {
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    color: var(--tex-color-blancoGris);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.viewCursos_temario--lista-Caja-encabezado .icono{
+    width: 2%;
+    font-size: 20px;
+    color: var(--tex-color-blancoGris);
+    cursor: pointer;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    padding: 5px;
+    background-color: #6969692d;
+
+
+}
+
+
+.viewCursos_body--right {
+    width: 30%;
+    min-height: calc(100vh - 70px - 1rem);
+    max-height: calc(100vh - 70px - 1rem);
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #00000049;
+    position: sticky;
+    top: 20px;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin-bottom: 30px;
+}
+
+.viewCursos_body--right-menu {
+    width: 100%;
+}
+
+.viewCursos_body--right-menu  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom: 1px;
+    border-color: #ffffff1a;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    background-color: #89898913;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.viewCursos_body--right-menu  ul  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.viewCursos_body--right-menu  ul  li p {
+    color: #dfdfdf;
+    padding-bottom: 5px;
+}
+
+.viewCursos_body--right-menu  ul  li .active{
+    border-bottom: solid 1px aqua;
+}
+
+.viewCursos_body--right-menu  ul  li .icono{
+    margin-right: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #111111f2;
+    padding: 7px;
+    color: aqua;
+}
+
+.viewCursos_body--right .Contacto {
+    margin-top: 20px;
+}
+
+.viewCursos_body--right .Contacto h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.viewCursos_body--right .Contacto_Formulario {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.viewCursos_body--right .Contacto_Formulario input {
+    border-radius: 10px;
+}
+
+.viewCursos_body--right .Contacto_Formulario textarea {
+    height: 150px;
+    border-radius: 10px;
+}
+
+.viewCursos_body--right .Contacto_Formulario button {
+    line-height: 1em;
+    border-radius: 10px;
+    padding: 10px 28px;
+    font-size: 15px;
+}

@@ -1,0 +1,235 @@
+.Usuarios h2 {
+    margin: 3% 0;
+    color: #252b36;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.AddUsuario {
+    position: relative;
+}
+
+.AddUsuario_Encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 0;
+}
+
+.AddUsuario_Encabezado h3 {
+    color: #252b36;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+.AddUsuario_Content {
+    width: 100%;
+    display: flex;
+}
+
+.AddUsuario_Content-left {
+    width: 25%;
+    margin-right: 10px;
+}
+
+.AddUsuario_Content-left-Usuario {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #57575731;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.AddUsuario_Content-left-Usuario img {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border: #4b6eb0 1px dashed;
+}
+
+.AddUsuario_Content-left-Usuario h2 {
+    color: #252b36;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.AddUsuario_Content-left-Usuario p {
+    color: #252b366c;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.AddUsuario_Content-left-Usuario ul {
+    text-align: left;
+    list-style: none;
+}
+
+.AddUsuario_Content-left-Usuario ul li {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.AddUsuario_Content-left-Usuario ul li .icono {
+    margin-right: 10px;
+}
+
+
+.AddUsuario_Content-left-Usuario ul li:hover {
+    background-color: #edecec;
+}
+
+.AddUsuario_Content-left-Usuario ul .LiActive {
+    background-color: #091314;
+    color: #ffffff;
+}
+
+.AddUsuario_Content-left-Usuario ul .LiActive:hover {
+    background-color: #091314;
+}
+
+.AddUsuario_Content-left-Usuario .Activo {
+    color: #c10ade;
+    font-weight: 700;
+}
+
+
+
+.AddUsuario_Content-right {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #57575731;
+    background-color: #ffffff;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.AddUsuario_Content-right h1 {
+    color: #252b36;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 3%;
+}
+
+
+.AsignarProfesor {
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000a2;
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.AsignarProfesor_Content {
+    width: 50%;
+    max-height: 95vh;
+    background-color: #ffffff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.AsignarProfesor_Content .AddUsuario_Encabezado button {
+    margin: 0 5px;
+}
+
+.AsignarProfesor_Content-Formuario {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.AsignarProfesor_Content-Formuario .Error {
+    color: #ff0808;
+    text-align: left;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.AsignarProfesor_Content-Formuario--img {
+    width: 30%;
+}
+
+.AsignarProfesor_Content-Formuario--img img {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border: #4b6eb0 1px dashed;
+}
+
+.AsignarProfesor_Content-Formuario--input {
+    width: 70%;
+}
+
+.AsignarProfesor_Content-Formuario--input button {
+    width: 100%;
+}
+
+.AddUsuario_Content-left-Usuario .es {
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AddUsuario_Content-left-Usuario .es1 {
+    color: #c4971a;
+}
+
+.AddUsuario_Content-left-Usuario .es2 {
+    color: #053e74;
+    border-top: 1px solid #053e741c;
+    border-bottom: 1px solid #053e741c;
+    margin: 5px 0;
+    padding: 10px 0;
+}
+
+.AddUsuario_Content-left-Usuario .es .icono {
+    margin-right: 10px;
+}
+
+.AddUsuario_Content-left-Usuario--rol {
+    margin-bottom: 10px;
+}
+
+.AddUsuario_Content-left-Usuario button {
+    margin: 10px 0;
+}
+

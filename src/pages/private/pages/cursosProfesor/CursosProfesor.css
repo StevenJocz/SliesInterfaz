@@ -1,0 +1,302 @@
+.ModulosCursos_Encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 0;
+}
+
+.ModulosCursos_Encabezado h3 {
+    color: #252b36;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.ModulosCursos_titulo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.ModulosCursos_titulo-previsual {
+    margin: -20px 0 0 20px;
+}
+
+.ModulosCursos_content {
+    width: 100%;
+}
+
+.ModulosCursos_content--addModulo {
+    width: 100%;
+    display: flex;
+}
+
+.ModulosCursos_content--addModulo h4 {
+    color: #252b369f;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.addModulo_lista {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #57575731;
+    background-color: #ffffff;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    margin-right: 10px;
+}
+
+.addModulo_lista ul,
+.addModulo_info--formulario-temas-menu ul {
+    text-align: left;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.addModulo_lista ul li,
+.addModulo_info--formulario-temas-menu ul li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addModulo_lista ul li div,
+.addModulo_info--formulario-temas-menu ul li div {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.addModulo_lista ul li .icono,
+.addModulo_info--formulario-temas-menu ul li .icono {
+    margin-right: 10px;
+}
+
+.addModulo_lista ul li .iconoBorrar,
+.addModulo_info--formulario-temas-menu ul li .iconoBorrar {
+    color: #b51010;
+    font-size: 18px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.addModulo_lista ul li .iconoBorrar:hover,
+.addModulo_info--formulario-temas-menu ul li .iconoBorrar:hover {
+    color: #740505;
+    background-color: #b5101034;
+}
+
+.addModulo_lista ul li .iconoCrear,
+.addModulo_info--formulario-temas-menu ul li .iconoCrear {
+    color: #1bb510;
+    font-size: 18px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.addModulo_lista ul li .iconoCrear:hover,
+.addModulo_info--formulario-temas-menu ul li .iconoCrear:hover {
+    color: #057423;
+    background-color: #10b54c34;
+}
+
+
+
+.addModulo_lista ul li:hover,
+.addModulo_info--formulario-temas-menu ul li:hover {
+    background-color: #edecec;
+}
+
+.addModulo_lista ul .LiActive,
+.addModulo_info--formulario-temas-menu ul .LiActive {
+    background-color: #10222326;
+    color: #000000;
+}
+
+
+
+.addModulo_lista ul .LiActive:hover,
+.addModulo_info--formulario-temas-menu ul .LiActive:hover {
+    background-color: #10222326;
+}
+
+.addModulo_info {
+    width: 70%;
+    margin-left: 10px;
+}
+
+.addModulo_info--formulario {
+    padding: 10px;
+    border: 1px solid #57575731;
+    background-color: #ffffff;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.addModulo_info--formulario-temas {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.addModulo_info--formulario-temas-menu {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #57575731;
+    background-color: #ffffff;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    margin-right: 5px;
+}
+
+.addModulo_info--formulario-temas-ri {
+    width: 70%;
+}
+
+.addModulo_info--formulario-temas-content {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #57575731;
+    background-color: #ffffff;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.addModulo_info--encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.addModulo_info--encabezado .addModulo_info--encabezado-user p,
+.addModulo_info--encabezado-tema .addModulo_info--encabezado-user p {
+    color: #252b36;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 12px;
+    text-align: right;
+}
+
+.addModulo_info--encabezado .addModulo_info--encabezado-user .addModulo_info--encabezado-nombre,
+.addModulo_info--encabezado-tema .addModulo_info--encabezado-user .addModulo_info--encabezado-nombre {
+    color: #252b36ae;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 12px;
+}
+
+.addModulo_info--encabezado .addModulo_info--encabezado-user .addModulo_info--encabezado-fecha,
+.addModulo_info--encabezado-tema .addModulo_info--encabezado-user .addModulo_info--encabezado-nombre {
+    color: #252b36ae;
+    font-family: "Neue Plak Regular", serif;
+    font-size: 10px;
+    text-align: right;
+}
+
+.addModulo_info--formulario-temas-content-info {
+    padding: 10px;
+}
+
+.addModulo_info--formulario-temas-content-info ul, 
+.addModulo_info--formulario-temas-content-info ol {
+    margin: 20px;
+}
+
+.addModulo_info-video {
+    margin: 20px 0;
+}
+
+
+.addModulo_info--formulario-temas-content .tox .tox-statusbar__right-container,
+.addModulo_info--formulario-temas-content .tox .tox-statusbar__path {
+    display: none;
+}
+
+.addModulo_info--formulario-temas-content .tox .tox-toolbar__primary,
+.addModulo_info--formulario-temas-content .tox .tox-editor-header,
+.addModulo_info--formulario-temas-content .tox .tox-toolbar-overlord,
+.addModulo_info--formulario-temas-content .tox:not(.tox-tinymce-inline) .tox-editor-header,
+.addModulo_info--formulario-temas-content .tox-tinymce,
+.addModulo_info--formulario-temas-content .tox-editor-container .tox-statusbar {
+
+    border: none;
+    margin-bottom: 5px;
+    box-shadow: none;
+}
+
+
+.addModulo_info--formulario-temas-content .tox-edit-area {
+    border: 1px solid #00000028;
+    border-radius: 4px;
+}
+
+
+.formulario-temas-content-guardar {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.AddModulo {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000a2;
+    backdrop-filter: blur(3px);
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 1000;
+
+}
+
+.AddModulo_Content {
+    width: 50%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 20px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    overflow: hidden;
+}
+
+.AddModulo_Content_tema {
+    width: 70%; 
+    top: 2%;
+    left: 15%;
+}
+
+.AddUsuario_Encabezado button {
+    margin: 0 5px;
+}
+
+.AddModulo_Content h4 {
+    margin-bottom: 20px;
+    color: #252b36cb;
+}

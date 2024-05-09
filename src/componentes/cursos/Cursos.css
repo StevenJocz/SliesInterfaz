@@ -1,0 +1,337 @@
+.Cursos {
+    width: 100%;
+    margin-top: 8%;
+}
+
+.Cursos_titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.Cursos_titulo h2 {
+    font-family: "Neue Plak Extended Bold", serif;
+    color: var(--text-color-blanco);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -1.2px;
+    line-height: 100%;
+
+}
+
+.Cursos_titulo img {
+    width: 200px;
+    height: 200px;
+    margin-right: 200px;
+    transform: rotate(280deg);
+    -webkit-transform: rotate(280deg);
+    -moz-transform: rotate(280deg);
+    -ms-transform: rotate(280deg);
+    -o-transform: rotate(280deg);
+}
+
+
+.Cursos_body {
+    width: 100%;
+    display: grid;
+    flex: 0 0 auto;
+    gap: 24px;
+    grid-auto-rows: min-content;
+    grid-template-columns: repeat(2, minmax(1px, 1fr));
+    height: auto;
+    justify-content: start;
+    padding: 0 80px;
+}
+
+.Cursos_body a {
+    text-decoration: none;
+}
+
+.Cursos_tarjetas {
+    width: 100%;
+    height: 75vh;
+    border: solid 1px #6b6a6a4e;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0px -1px 8px 0px rgba(255, 255, 255, 0.081);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.Cursos_tarjetas-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Cursos_tarjetas-header p {
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+    line-height: 120%;
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+
+.Cursos_tarjetas-header .icono {
+    background-color: rgba(255, 255, 255, 0.071);
+    opacity: 1;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    font-size: 25px;
+    padding: 5px 20px;
+    color: rgb(130, 130, 130);
+}
+
+.Cursos_tarjetas-body {
+    margin-top: 30px;
+}
+
+.Cursos_tarjetas-body h1 {
+    color: var(--text-color-blanco);
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.48px;
+    line-height: 120%;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.Cursos_tarjetas-body-descripcion {
+    height: 110px;
+    overflow: hidden;
+}
+
+.Cursos_tarjetas-body p {
+    font-family: "Neue Plak Regular", serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    line-height: 150%;
+    color: var(--tex-color-blancoGris, #ffffff);
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: none;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    transition: -webkit-line-clamp 0.5s ease-in-out;
+    white-space: pre-line;
+}
+
+.Cursos_tarjetas-footer {
+    position: absolute;
+    bottom: 50px;
+}
+
+.Cursos_tarjetas-footer h2 {
+    color: var(--text-color-blanco);
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.48px;
+    line-height: 120%;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.Cursos_tarjetas-footer h3 {
+    color: var(--bg-color-Gris-Claro);
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.48px;
+    line-height: 120%;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.Cursos_tarjetas-footer .Cursos_tarjetas-footer-boton {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff12;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: linear 0.5s;
+    -webkit-transition: linear 0.5s;
+    -moz-transition: linear 0.5s;
+    -ms-transition: linear 0.5s;
+    -o-transition: linear 0.5s;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Cursos_tarjetas-footer .Cursos_tarjetas-footer-boton p {
+    color: var(--text-color-blanco);
+    font-family: "Neue Plak Extended Semi Bold", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.48px;
+    line-height: 120%;
+    text-decoration: none;
+    text-transform: none;
+    margin-left: 5px;
+    transition: all 3s;
+    -webkit-transition: all 3s;
+    -moz-transition: all 3s;
+    -ms-transition: all 3s;
+    -o-transition: all 3s;
+    text-align: right;
+    display: none;
+    opacity: 0;
+}
+
+.Cursos_tarjetas-footer .Cursos_tarjetas-footer-boton .icono {
+    color: #fff;
+    font-size: 30px;
+    transform: rotate(-40deg);
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
+    text-align: center;
+}
+
+
+.Cursos_tarjetas-tipo h1 {
+    -webkit-text-stroke: 1px #fff;
+    -webkit-font-smoothing: antialiased;
+    color: transparent !important;
+    font-family: "Neue Plak Extended Bold", serif;
+    font-size: 190px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -4px;
+    line-height: 100%;
+    text-align: start;
+    color: var(--tex-color-blancoGris, #ffffff);
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity: 0.1;
+    position: absolute;
+    bottom: 15%;
+    left: 60px;
+    transition: left 1s;
+    -webkit-transition: left 1s;
+    -moz-transition: left 1s;
+    -ms-transition: left 1s;
+    -o-transition: left 1s;
+}
+
+.Cursos_tarjetas-header h2 {
+    color: var(--text-color-amarilloClaro);
+}
+
+.Cursos_tarjetas {
+    background-image: url(https://framerusercontent.com/images/7f3Ox1TJX5rZh7OBsWYghFF0o4.png?scale-down-to=1024);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+}
+
+.Cursos_tarjetas-header .textCursos {
+    color: var(--text-color-verde);
+}
+
+.bgCursos {
+    background-image: url(https://framerusercontent.com/images/yzzRusDQN0Zhp1AyZqadpWknrc.webp?scale-down-to=512);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+}
+
+.Cursos_tarjetas-header .textEventos {
+    color: var(--text-color-azulClaro);
+}
+
+.bgEventos {
+    background-image: url(https://framerusercontent.com/images/AKTGTb8auKMmwGRs54lbLH5YGo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+}
+
+.Cursos_tarjetas-header .textSeminarios {
+    color: var(--text-color-purpura);
+}
+
+.bgSeminarios {
+    background-image: url(https://framerusercontent.com/images/DRYyjEQyd7FJ7a5pl6B4WLi2ZQ.png?scale-down-to=512);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+}
+
+.Cursos_tarjetas-header .textDiplomados {
+    color: var(--text-color-naraja);
+}
+
+.bgDiplomados {
+    background-image: url(https://framerusercontent.com/images/VPjUBUQM5ujth8IIPVS3mYd4HGs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+}
+
+.Cursos_tarjetas:hover {
+    .Cursos_tarjetas-tipo h1 {
+        left: -100%;
+    }
+
+    .Cursos_tarjetas-footer .Cursos_tarjetas-footer-boton {
+        width: 200px;
+        border-radius: 40px;
+    }
+
+
+    .Cursos_tarjetas-footer .Cursos_tarjetas-footer-boton .icono {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+
+    .Cursos_tarjetas-footer .Cursos_tarjetas-footer-boton p {
+        display: flex;
+        opacity: 0.7;
+    }
+
+        background-position: 100%;
+    
+}
